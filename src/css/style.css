@@ -322,3 +322,107 @@ footer {
   text-align: center;
   padding: 15px;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #222222;
+  margin: 0;
+}
+
+a {
+  color: #b0005f;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff8fc0;
+  padding: 15px 30px;
+}
+
+.site-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+nav a {
+  color: #222222;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.welcome {
+  text-align: center;
+}
+
+.member-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.member-card {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #ff8fc0;
+  border: 2px solid #e0338a;
+  text-align: center;
+}
+
+.member-card img {
+  width: 200px;
+  height: 200px;
+  background-color: #ffe6f1;
+}
+
+.content {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.infobox {
+  width: 260px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 2px solid #e0338a;
+}
+
+.infobox img {
+  width: 240px;
+  height: 240px;
+  background-color: #ffe6f1;
+}
+
+.infobox ul {
+  padding-left: 20px;
+}
+
+.text {
+  width: 400px;
+  margin: 10px;
+}
+
+footer {
+  background-color: #ff8fc0;
+  text-align: center;
+  padding: 15px;
+}
