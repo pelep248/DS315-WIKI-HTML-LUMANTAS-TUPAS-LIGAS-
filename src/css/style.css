@@ -45,3 +45,52 @@ footer {
   text-align: center;
   padding: 15px;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #222222;
+  margin: 0;
+}
+
+a {
+  color: #b0005f;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff8fc0;
+  padding: 15px 30px;
+}
+
+.site-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+nav a {
+  color: #222222;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.member-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style: none;
+  padding: 0;
+}
+
+.member-card {
+  border: 1px solid #222222;
+  padding: 10px;
+}
+
+footer {
+  background-color: #ff8fc0;
+  text-align: center;
+  padding: 15px;
+}
