@@ -19,7 +19,6 @@ main {
   text-align: center;
 }
 
-/* header and nav */
 header {
   display: flex;
   justify-content: space-between;
@@ -40,12 +39,10 @@ nav a {
   margin-left: 15px;
 }
 
-/* welcome part on the homepage */
 .welcome {
   text-align: center;
 }
 
-/* member grid (flexbox) */
 .member-grid {
   display: flex;
   flex-wrap: wrap;
@@ -75,7 +72,6 @@ nav a {
   background-color: #ffe6f1;
 }
 
-/* member page layout (flexbox) */
 .content {
   display: flex;
   flex-direction: row-reverse;
@@ -110,7 +106,6 @@ nav a {
   margin-right: 20px;
 }
 
-/* footer */
 footer {
   background-color: #ff8fc0;
   text-align: center;
